@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tabs switch using JS</title>
+</head>
+<body>
+    <div class="tabs-container">
+        <div class="tabs">
+            <button class="tab active" data-tab="home">Home</button>
+            <button class="tab" data-tab="profile">Profile</button>
+            <button class="tab" data-tab="contact">Contact</button>
+            <button class="tab" data-tab="about">About</button>
+        </div>
+
+        <div class="tab-content">
+            <div class="content active" id="home">
+                <h2>Home</h2>
+                <p>
+                    Welcome to the home tab.<br> This is the default active tab.
+                </p>
+            </div>
+
+            <div class="content" id="profile">
+                <h2>Profile</h2>
+                <p>
+                    Welcome to the profile tab. <br>
+                    You can add information about your professional 
+                    profile here.
+                </p>
+            </div>
+
+            <div class="content" id="contact">
+                <h2>Contact</h2>
+                <p>This is the contact tab. <br> 
+                    Add your contact details here
+                </p>
+            </div>
+
+            <div class="content" id="about">
+                <h2>About</h2>
+                <p>This is the about tab. <br>
+                    Add information about yourself or the website here.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
